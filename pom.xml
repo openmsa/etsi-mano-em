@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.ubiqube.mano</groupId>
 		<artifactId>mano-super-pom</artifactId>
-		<version>3.0.0</version>
+		<version>3.1.0-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ubiqube.mano.em</groupId>
@@ -16,7 +16,7 @@
 	</modules>
 	<scm>
 		<developerConnection>scm:git:https://github.com/openmsa/etsi-mano-em.git</developerConnection>
-	  <tag>mano-em-3.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<properties>
 		<version.em-front-controller>3.0.0</version.em-front-controller>
