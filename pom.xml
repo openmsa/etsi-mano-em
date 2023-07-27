@@ -16,13 +16,6 @@
 	</modules>
 	<scm>
 		<developerConnection>scm:git:https://github.com/openmsa/etsi-mano-em.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
-	<properties>
-		<version.em-front-controller>3.0.0</version.em-front-controller>
-		<version.mano-core-api>3.0.0</version.mano-core-api>
-		<version.event-api>3.0.0</version.event-api>
-		<version.mano-fluxrest>3.0.0</version.mano-fluxrest>
-		<version.etsi-model-431>3.0.0</version.etsi-model-431>
-	</properties>
+		<tag>HEAD</tag>
+	</scm>
 </project>
