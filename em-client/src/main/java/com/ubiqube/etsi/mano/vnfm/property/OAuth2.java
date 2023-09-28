@@ -16,6 +16,7 @@
  */
 package com.ubiqube.etsi.mano.vnfm.property;
 
+import java.net.URI;
 import java.util.List;
 
 import com.ubiqube.etsi.mano.service.auth.model.OAuth2GrantType;
@@ -32,6 +33,6 @@ public class OAuth2 {
 
 	private List<String> scope;
 
-	private String tokenEndpoint;
+	private URI tokenEndpoint;
 
 }

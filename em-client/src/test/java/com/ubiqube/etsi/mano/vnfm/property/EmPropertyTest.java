@@ -18,6 +18,7 @@ package com.ubiqube.etsi.mano.vnfm.property;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+import java.net.URI;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -38,7 +39,7 @@ class EmPropertyTest {
 		oauth2.setClientSecret("secret");
 		oauth2.setGrantType(OAuth2GrantType.CLIENT_CREDENTIAL);
 		oauth2.setScope(List.of());
-		oauth2.setTokenEndpoint("endp");
+		oauth2.setTokenEndpoint(URI.create("http://endp/"));
 		assertNotNull(oauth2.getClientId());
 		assertNotNull(oauth2.getClientSecret());
 		assertNotNull(oauth2.getGrantType());
