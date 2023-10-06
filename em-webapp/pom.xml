@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.ubiqube.mano</groupId>
 		<artifactId>mano-super-webapp</artifactId>
-		<version>3.2.0</version>
+		<version>3.2.1-SNAPSHOT</version>
 		<relativePath />
 	</parent>
 	<groupId>com.ubiqube.mano.webapp</groupId>
@@ -76,7 +76,7 @@
 		<dependency>
 			<groupId>com.ubiqube.mano.em</groupId>
 			<artifactId>em-core</artifactId>
-			<version>3.2.0</version>
+			<version>3.2.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>

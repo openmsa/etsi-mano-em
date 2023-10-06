@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.ubiqube.mano.em</groupId>
 		<artifactId>mano-em</artifactId>
-		<version>3.2.0</version>
+		<version>3.2.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>em-core</artifactId>
 	<dependencies>
@@ -14,7 +14,7 @@
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
 			<artifactId>em-front-controller</artifactId>
-			<version>3.2.0</version>
+			<version>3.2.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>com.ubiqube.mano.event</groupId>
 			<artifactId>event-api</artifactId>
-			<version>3.2.0</version>
+			<version>3.2.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
