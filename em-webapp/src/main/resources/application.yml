@@ -72,6 +72,9 @@ spring:
             directory:
               root: /tmp/etsi-mano-em/indexes
             type: lucene
+  output:
+    ansi:
+      enabled: always
   security:
     oauth2:
       resourceserver:
