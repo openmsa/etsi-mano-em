@@ -25,8 +25,8 @@ import org.springframework.web.service.annotation.GetExchange;
 import org.springframework.web.service.annotation.HttpExchange;
 import org.springframework.web.service.annotation.PatchExchange;
 
-import com.ubiqube.etsi.mano.em.v431.model.vnfconfig.VnfConfigModifications;
-import com.ubiqube.etsi.mano.em.v431.model.vnfconfig.VnfConfiguration;
+import com.ubiqube.etsi.mano.v431.model.em.vnfconfig.VnfConfigModifications;
+import com.ubiqube.etsi.mano.v431.model.em.vnfconfig.VnfConfiguration;
 
 @HttpExchange(url = "/vnfind/v1", accept = "application/json", contentType = "application/json")
 public interface ConfigurationRemoteService {

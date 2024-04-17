@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.service.annotation.GetExchange;
 import org.springframework.web.service.annotation.HttpExchange;
 
-import com.ubiqube.etsi.mano.em.v431.model.vnfind.VnfIndicator;
+import com.ubiqube.etsi.mano.v431.model.em.vnfind.VnfIndicator;
 
 import jakarta.annotation.Nullable;
 import jakarta.validation.Valid;

@@ -28,8 +28,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.service.annotation.HttpExchange;
 
-import com.ubiqube.etsi.mano.em.v431.model.vnfind.VnfIndicatorSubscription;
-import com.ubiqube.etsi.mano.em.v431.model.vnfind.VnfIndicatorSubscriptionRequest;
+import com.ubiqube.etsi.mano.v431.model.em.vnfind.VnfIndicatorSubscription;
+import com.ubiqube.etsi.mano.v431.model.em.vnfind.VnfIndicatorSubscriptionRequest;
 
 @HttpExchange(url = "/vnfind/v1", accept = "application/json", contentType = "application/json")
 public interface VnfIndSubscriptionRemoteService {
