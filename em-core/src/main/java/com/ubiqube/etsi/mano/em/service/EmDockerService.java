@@ -27,7 +27,7 @@ import com.ubiqube.etsi.mano.docker.RegistryInformations;
 public class EmDockerService implements DockerService {
 
 	@Override
-	public void sendToRegistry(final InputStream is, final RegistryInformations registry, final String imageName, final String tag) {
+	public void sendToRegistry(final InputStream is, final String filename, final RegistryInformations registry, final String imageName, final String tag) {
 		// TODO Auto-generated method stub
 
 	}
