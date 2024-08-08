@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.ubiqube.mano</groupId>
 		<artifactId>mano-super-webapp</artifactId>
-		<version>4.0.0</version>
+		<version>4.0.1-SNAPSHOT</version>
 		<relativePath />
 	</parent>
 	<groupId>com.ubiqube.mano.webapp</groupId>
@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>com.ubiqube.mano.event</groupId>
 			<artifactId>event-jms</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
@@ -64,7 +64,7 @@
 		<dependency>
 			<groupId>com.ubiqube.mano.repository</groupId>
 			<artifactId>mano-repo-fs</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.ubiqube.mano.em</groupId>
@@ -74,12 +74,12 @@
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
 			<artifactId>etsi-em-431-controllers</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
 			<artifactId>mano-core-api</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -140,6 +140,6 @@
 	</profiles>
 
   <scm>
-    <tag>mano-em-4.0.0</tag>
+    <tag>mano-em-3.2.0</tag>
   </scm>
 </project>

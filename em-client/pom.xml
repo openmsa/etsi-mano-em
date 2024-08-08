@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.ubiqube.mano.em</groupId>
 		<artifactId>mano-em</artifactId>
-		<version>4.0.0</version>
+		<version>4.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>em-client</artifactId>
 	<dependencies>
@@ -19,12 +19,12 @@
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
 			<artifactId>mano-fluxrest</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.ubiqube.mano</groupId>
 			<artifactId>etsi-model-431</artifactId>
-			<version>4.0.0</version>
+			<version>4.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
