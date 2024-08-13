@@ -32,4 +32,9 @@ public class EmDockerService implements DockerService {
 
 	}
 
+	@Override
+	public void verifyConnection(final RegistryInformations registry) {
+		// TODO Auto-generated method stub
+	}
+
 }
