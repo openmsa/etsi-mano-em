@@ -50,6 +50,6 @@ public class ClientConfigBean extends AbstractClientConfigBean {
 		Optional.ofNullable(conf.getVersion()).ifPresent(x -> webBuilder.defaultHeader("Version", x));
 		final WebClient client = webBuilder
 				.build();
-		return HttpServiceProxyFactory.builder(WebClientAdapter.forClient(client)).build();
+		return HttpServiceProxyFactory.builderFor(WebClientAdapter.create(client)).build();
 	}
 }

@@ -61,6 +61,6 @@ public class ClientConfigObservabilityBean extends AbstractClientConfigBean {
 		webBuilder.observationRegistry(observationRegistry);
 		final WebClient client = webBuilder
 				.build();
-		return HttpServiceProxyFactory.builder(WebClientAdapter.forClient(client)).build();
+		return HttpServiceProxyFactory.builderFor(WebClientAdapter.create(client)).build();
 	}
 }
